@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forge — Our Clients</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<style>
+/* Change --brand-size to make the Forge name larger or smaller */
+:root{--brand-size:40px;--ink:#000;--muted:#5C5C5C;--line:#E5E5E5;--display:"Space Grotesk",Inter,system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+.page{max-width:1040px;margin:0 auto;padding:clamp(24px,5vw,72px)}
+.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:32px;padding-bottom:40px}
+.brand{margin:0 0 28px;font:700 var(--brand-size)/1 var(--display);letter-spacing:-.04em}
+h1{margin:0;font:600 28px/1.15 var(--display);letter-spacing:-.02em}
+.intro{margin:8px 0 0;max-width:36ch;color:var(--muted)}
+.total{margin:0;text-align:right}
+.total span{display:block;font-size:14px;color:var(--muted)}
+.total strong{display:block;margin-top:4px;font-size:28px;line-height:1.1;font-weight:600;letter-spacing:-.02em}
+.clients{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));column-gap:72px}
+.clients li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
+.n{display:block;font-size:17px;font-weight:600;letter-spacing:-.01em;line-height:1.4}
+.c{display:block;margin-top:2px;font-size:14px;color:var(--muted)}
+.a{font-size:17px;font-weight:600;white-space:nowrap}
+.stats{display:flex;flex-wrap:wrap;gap:32px 80px;margin-top:64px}
+.stats strong{display:block;font:600 36px/1 var(--display);letter-spacing:-.03em}
+.stats span{display:block;margin-top:8px;font-size:14px;color:var(--muted)}
+.foot{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="top">
+<div>
+<p class="brand">Forge</p>
+<h1>Our Clients</h1>
+<p class="intro">A diverse portfolio of 17 successful projects across the globe.</p>
+</div>
+<p class="total"><span>Total revenue</span><strong>₹3,40,000</strong></p>
+</header>
+<main>
+<ul class="clients">
+<li><div><span class="n">Müller Architecture</span><span class="c">Berlin, Germany</span></div><span class="a">₹30,000</span></li>
+<li><div><span class="n">Sharma Electronics</span><span class="c">Delhi, India</span></div><span class="a">₹25,000</span></li>
+<li><div><span class="n">Sterling Fashion</span><span class="c">London, UK</span></div><span class="a">₹25,000</span></li>
+<li><div><span class="n">Royal Furniture</span><span class="c">Mumbai, India</span></div><span class="a">₹22,000</span></li>
+<li><div><span class="n">MapleTech Solutions</span><span class="c">Toronto, Canada</span></div><span class="a">₹20,000</span></li>
+<li><div><span class="n">GreenLeaf Organics</span><span class="c">Jaipur, India</span></div><span class="a">₹20,000</span></li>
+<li><div><span class="n">TechNova Solutions</span><span class="c">Hyderabad, India</span></div><span class="a">₹24,000</span></li>
+<li><div><span class="n">Urban Clothing</span><span class="c">Ahmedabad, India</span></div><span class="a">₹18,000</span></li>
+<li><div><span class="n">Sunrise Education</span><span class="c">Bhopal, India</span></div><span class="a">₹17,000</span></li>
+<li><div><span class="n">Elite Properties</span><span class="c">Pune, India</span></div><span class="a">₹21,000</span></li>
+<li><div><span class="n">FreshBite Foods</span><span class="c">Lucknow, India</span></div><span class="a">₹16,000</span></li>
+<li><div><span class="n">Pixel Photography</span><span class="c">Kolkata, India</span></div><span class="a">₹15,000</span></li>
+<li><div><span class="n">Royal Travels</span><span class="c">Kochi, India</span></div><span class="a">₹19,000</span></li>
+<li><div><span class="n">SmartCare Hospital</span><span class="c">Chennai, India</span></div><span class="a">₹18,000</span></li>
+<li><div><span class="n">Digital Mart</span><span class="c">Indore, India</span></div><span class="a">₹15,000</span></li>
+<li><div><span class="n">Fashion Avenue</span><span class="c">Surat, India</span></div><span class="a">₹13,000</span></li>
+<li><div><span class="n">Krishna Enterprises</span><span class="c">Patna, India</span></div><span class="a">₹22,000</span></li>
+</ul>
+<div class="stats">
+<div><strong>3</strong><span>International clients</span></div>
+<div><strong>14</strong><span>Indian clients</span></div>
+<div><strong>17</strong><span>Total clients</span></div>
+</div>
+</main>
+<footer class="foot">Building better digital experiences.</footer>
+</div>
+</body>
+</html>
